@@ -1,16 +1,18 @@
 <template>
     <h1>HomePage</h1>
-
+    <v-container>
     <v-card class="mx-auto" elevation="24">
+   
 
 <v-carousel hide-delimiters>
-    <v-carousel-item src="https://images.unsplash.com/photo-1576402187878-974f70c890a5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Zm9vZHN8ZW58MHx8MHx8fDA%3D" cover> </v-carousel-item>
-    <v-carousel-item src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGZvb2RzfGVufDB8fDB8fHww" cover> </v-carousel-item>
-    <v-carousel-item src="https://images.unsplash.com/photo-1546039907-7fa05f864c02?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGZvb2RzfGVufDB8fDB8fHww" cover> </v-carousel-item>
-    <v-carousel-item src="https://plus.unsplash.com/premium_photo-1676466901396-125e349e847e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGZvb2RzfGVufDB8fDB8fHww" cover> </v-carousel-item>
+    <v-carousel-item src="/andrew-seaman-sQopSb2K0CU-unsplash.jpg" cover> </v-carousel-item>
+    <v-carousel-item src="/joanna-boj-MhOoD_h90ks-unsplash.jpg" cover> </v-carousel-item>
+    <v-carousel-item src="/shawn-nmpW_WwwVSc-unsplash.jpg" cover> </v-carousel-item>
+    <v-carousel-item src="/toa-heftiba-TwtUYtDOv6w-unsplash.jpg" cover> </v-carousel-item>
 </v-carousel>
 
-</v-card>
+    </v-card>
+</v-container>
 
 <v-container>
         <v-card class="mx-auto" elevation="24">
@@ -78,13 +80,13 @@
 
                 <v-col cols="12" md="4">
                     <v-card>
-                        <v-card color="#2f89d0">
+                        <v-card color="#b5660e">
                     <v-card-item>
                     <v-card-title>Promotions</v-card-title>
 
-                    <v-card-subtitle>This is a card subtitle</v-card-subtitle>
+                    <v-card-subtitle>italian bread at 30% off</v-card-subtitle>
                     </v-card-item>
-                    <v-img height="200px" src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg" cover ></v-img>
+                    <v-img height="200px" src="https://images.unsplash.com/photo-1603984042729-a34adc2ac9d0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aXRhbGlhbiUyMGJyZWFkfGVufDB8fDB8fHww" cover ></v-img>
 
                     <v-card-text>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ratione debitis quis est labore voluptatibus!
